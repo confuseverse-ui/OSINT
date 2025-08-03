@@ -1,6 +1,8 @@
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler
 from OSINT import *
 
+BOT_TOKEN = "7661644553:AAEo0DCUcLc2L_IxtDkInPwWBc_FREUoxjo"
+
 async def main():
     await clear_bot_webhooks()
 
