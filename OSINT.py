@@ -30,8 +30,6 @@ except ImportError:
     EXIFREAD_AVAILABLE = False
 
 try:
-    import pytesseract
-    import cv2
     import numpy as np
     OCR_AVAILABLE = True
 except ImportError:
